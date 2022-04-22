@@ -1,0 +1,66 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.heading{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    width: 600px;
+    padding: 50px 0;
+    border-radius: 10px;
+    background-color: rgb(34, 230, 27);
+    box-shadow: 0px 20px 28px rgb(193, 193, 196);
+}
+
+.list-users {
+    border-radius: 10px;
+    padding: 30px 20px;
+    width: 500px;
+    height: 400px;
+    box-shadow: 0px 15px 25px rgb(108, 108, 109);
+    background-color: rgb(255, 252, 249);
+    border: 1px solid rgb(204, 203, 203);
+    overflow: auto;
+}
+
+.direction {
+    border-radius: 10px;
+    padding: 10px 10px;
+    width: 400px;
+    height: 200px;
+    background-color: rgb(196, 238, 161);
+    box-shadow: 0px 15px 25px rgb(87, 87, 87);
+}
+
+.input {
+    width: 100%;
+    padding: 10px 1px;
+    border: 1px solid rgb(194, 193, 193);
+    margin-bottom: 100px;
+}
+
+.btn {
+    opacity: 0.8;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.update {
+    background-color: transparent;
+    opacity: 0.8;
+}
+
+.update:hover {
+    opacity: 1;
+}
